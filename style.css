@@ -29,7 +29,9 @@
 body {
        text-align: center;
        margin: 50px;
-       background-image: url("./images/movie_bg1.png");
+       background-image: url("./images/movie_bg1.jpg");
+       background-size: cover;
+       background-repeat: no-repeat;
        background-attachment: fixed;
 }
 img {
