@@ -1,0 +1,157 @@
+/* Telugu Font */
+/* @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Chathura:wght@100;300;400;700;800&family=Noto+Sans+Telugu:wght@100..900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Chathura:wght@100;300;400;700;800&family=Noto+Sans+Telugu:wght@100..900&family=Ramabhadra&display=swap');
+
+/* Hindi Font */
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Chathura:wght@100;300;400;700;800&family=Kalam:wght@300;400;700&family=Noto+Sans+Telugu:wght@100..900&family=Ramabhadra&display=swap');
+
+/* Tamil Font */
+/* @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Chathura:wght@100;300;400;700;800&family=Coiny&family=Kalam:wght@300;400;700&family=Noto+Sans+Telugu:wght@100..900&family=Ramabhadra&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Chathura:wght@100;300;400;700;800&family=Coiny&family=Kalam:wght@300;400;700&family=Mukta+Malar:wght@200;300;400;500;600;700;800&family=Noto+Sans+Telugu:wght@100..900&family=Ramabhadra&display=swap');
+
+/* Kannada Font */
+@font-face {
+    font-family: "Benne";
+    src: url("./fonts/Benne/Benne-Regular.ttf");
+}
+
+/* Malayalam Font */
+@font-face {
+    font-family: "Chilanka";
+    src: url("./fonts/Chilanka/Chilanka-Regular.ttf");
+}
+
+/* Gujarati */
+@font-face {
+    font-family: "Rasa";
+    src: url("./fonts/Rasa/Rasa-VariableFont_wght.ttf");
+}
+body {
+       text-align: center;
+       margin: 50px;
+       background-image: url("./images/movie_bg1.png");
+       background-attachment: fixed;
+}
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+nav {
+    text-align: center;
+    margin: 20px;
+}
+.navigation a{
+    background-color:cornflowerblue;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    color: #dfeff0;
+}
+h1 {
+    background-color: #295e6a;
+    color: #dfeff0;
+    font-size: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    width: 500px;
+    border: 10px solid #dfeff0;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px grey;
+    box-sizing: content-box;
+}
+h1::before {
+    content: "🎥";
+}
+div{
+    border: 2px solid black;
+    font-size: 1.5rem;
+    padding: 30px;
+    margin: 10px;
+    opacity: 0.8;
+}
+
+.teluguGhaziDiv{
+    background-color: #0b7199;
+}
+.teluguGhaziHeading, .teluguGhaziDesc{
+    /* font-family: "Akaya Telivigala", system-ui; */
+    font-family: "Ramabhadra", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+}
+
+.hindiOctoberDiv
+{
+    background-color: #257b52;
+    color: white;
+}
+.hindiOctoberHeading, .hindiOctoberDesc{
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.tamilJaiBhimDiv {
+    background-color: #aeaf8f;
+    color: white;
+}
+.tamilJaiBhimHeading, .tamilJaiBhimDesc{
+    /* font-family: "Coiny", system-ui; */
+    font-family: "Mukta Malar", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.kannadaKantaraDiv {
+    background-color: #f43f0b;
+    color: white;
+}
+.kannadaKantaraHeading, .kannadaKantaraDesc{
+    font-family: Benne;
+    font-weight: 900;
+    font-style: normal;
+   
+}
+.malayalam2018Div {
+    background-color: #8493a2;
+    color: white;
+}
+.malayalam2018Heading, .malayalam2018DDesc{
+    font-family: "Chilanka";
+    font-weight: 500;
+    font-style: italic;
+   
+}
+
+.englishOppenheimerDiv {
+    background-color: #f56637;
+    color: white;
+}
+.englishOppenheimerHeading, .englishOppenheimerDesc{
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-weight: 500;
+   font-style: italic;
+}
+
+.marathiSairatDiv {
+    background-color: #fe6974;
+    color: white;
+}
+.marathiSairatHeading, .marathiSairatDesc{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    font-style: italic;
+   
+}
+
+.gujaratiLastFilmShowDiv {
+    background-color: #bd8143;
+    color: white;
+}
+.gujaratiLastFilmShowHeading, .gujaratiLastFilmShowDesc{
+    font-family: "Rasa";
+    font-weight: 900;
+    font-style: normal;
+}
